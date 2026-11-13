@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="bg">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Химия без лаборатория</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Oswald:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* HUB DE ENTREGA: la única URL que recibe el comprador. Sin OTOs, sin contactos, noindex. */
+:root{--bg:#F4F6FB;--paper:#FFFFFF;--ink:#14213D;--ink-soft:#4A5873;--accent:#16306A;--accent-dark:#0E2147;--line:#DCE3F0}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:var(--bg);color:var(--ink)}
+body{font-family:'Inter',-apple-system,Arial,sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:'Oswald',Georgia,serif;line-height:1.15;letter-spacing:-.01em}
+a{color:inherit}
+.wrap{max-width:1040px;margin:0 auto;padding:0 16px}
+.hero{background:linear-gradient(160deg,var(--accent-dark),var(--accent));color:var(--paper);padding:48px 0 64px;text-align:center}
+.hero .kicker{display:inline-block;border:1px solid rgba(255,255,255,.5);border-radius:99px;padding:5px 14px;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;margin-bottom:14px}
+.hero h1{font-size:clamp(28px,6vw,48px);margin-bottom:10px}
+.hero p{font-size:18px;opacity:.93;max-width:640px;margin:0 auto}
+.stats{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:22px}
+.stats span{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.35);border-radius:99px;padding:8px 16px;font-weight:700;font-size:15px}
+.core{position:relative;margin:-36px auto 36px;background:var(--paper);border:2px solid var(--accent);border-radius:20px;padding:26px;display:grid;grid-template-columns:180px 1fr;gap:24px;align-items:center;box-shadow:0 18px 40px rgba(0,0,0,.10)}
+.core img{width:100%;border-radius:10px;box-shadow:0 8px 20px rgba(0,0,0,.18);display:block}
+.core .ph{aspect-ratio:2/3;border-radius:10px;background:linear-gradient(160deg,var(--accent),var(--accent-dark))}
+.tag{display:inline-block;background:var(--accent);color:var(--paper);border-radius:99px;padding:4px 12px;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;margin-bottom:10px}
+.core h2{font-size:clamp(22px,4vw,32px);margin-bottom:8px}
+.core p{color:var(--ink-soft);margin-bottom:16px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:12px 26px;border-radius:12px;background:var(--accent);color:var(--paper);font-weight:800;font-size:17px;text-decoration:none;box-shadow:0 4px 0 var(--accent-dark)}
+.btn:hover{filter:brightness(1.05)}
+.sec{margin:0 0 40px}
+.sec h2{font-size:clamp(22px,4vw,30px);margin-bottom:16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:18px;display:flex;flex-direction:column;gap:8px;text-decoration:none;transition:transform .12s,border-color .12s}
+.card:hover{transform:translateY(-2px);border-color:var(--accent)}
+.card .n{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.card h3{font-size:19px}
+.card p{color:var(--ink-soft);font-size:15px;flex:1}
+.card .go{font-weight:800;color:var(--accent-dark)}
+.card .btn{width:100%;min-height:46px;padding:10px 16px;font-size:16px}
+.acciones{display:inline-flex;flex-direction:column;align-items:stretch}
+.card .acciones{display:flex}
+.ver{display:block;margin-top:10px;font-weight:800;color:var(--accent-dark);text-decoration:none;text-align:center}
+.card .ver{margin-top:8px}
+.pasos{counter-reset:p;list-style:none;display:grid;gap:10px}
+.pasos li{counter-increment:p;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:14px 16px 14px 58px;position:relative}
+.pasos li::before{content:counter(p);position:absolute;left:14px;top:12px;width:32px;height:32px;border-radius:50%;background:var(--accent);color:var(--paper);font-weight:800;display:flex;align-items:center;justify-content:center}
+.foot{text-align:center;color:var(--ink-soft);font-size:13px;padding:10px 0 40px}
+@media (max-width:640px){.core{grid-template-columns:1fr;text-align:center;padding:20px}.core img,.core .ph{max-width:170px;margin:0 auto}.btn{width:100%}.acciones{display:flex}}
+.btn,.btn.primary{background:#F5B70A;color:#0E2147;box-shadow:0 4px 0 #C38F00}.btn:hover{background:#FFD45C}.card .n,.tag{color:#B07D00}.tag{background:#F5B70A;color:#0E2147}</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <span class="kicker">Добре дошли · Химия без лаборатория</span>
+    <h1>Химия без лаборатория</h1>
+    <p>150 карти с експерименти за печат в 5 книги + 5 бонуса като подарък. Изтеглете, разпечатайте, преподавайте.</p>
+    <div class="stats"><span>150 експеримента</span><span>5 книги</span><span>5 бонуса като подарък</span></div>
+  </div>
+</header>
+<main class="wrap">
+  <section class="sec" style="margin-top:32px"><h2>Основен продукт</h2><div class="grid"><div class="card"><span class="n">Книга 1</span><h3>Химия без лаборатория · Книга 1 · Обща химия</h3><p>30 експеримента, всеки на една карта за печат: материали, 6 стъпки със снимки, обяснение, уравнение и бележка за безопасност.</p><div class="acciones"><a class="btn" href="../../himiya-bez-laboratoriya/83gs13ys78/himiya-bez-laboratoriya-1-obshta-himiya.pdf" download>⬇ Изтеглете PDF</a><a class="ver" href="../../himiya-bez-laboratoriya/83gs13ys78/" target="_blank" rel="noopener">Отворете →</a></div></div><div class="card"><span class="n">Книга 2</span><h3>Химия без лаборатория · Книга 2 · Органична химия и биохимия</h3><p>30 експеримента, всеки на една карта за печат: материали, 6 стъпки със снимки, обяснение, уравнение и бележка за безопасност.</p><div class="acciones"><a class="btn" href="../../himiya-bez-laboratoriya/dw4suxmy3y/himiya-bez-laboratoriya-2-organichna-himiya-i-biohimiya.pdf" download>⬇ Изтеглете PDF</a><a class="ver" href="../../himiya-bez-laboratoriya/dw4suxmy3y/" target="_blank" rel="noopener">Отворете →</a></div></div><div class="card"><span class="n">Книга 3</span><h3>Химия без лаборатория · Книга 3 · Киселини, основи и метали</h3><p>30 експеримента, всеки на една карта за печат: материали, 6 стъпки със снимки, обяснение, уравнение и бележка за безопасност.</p><div class="acciones"><a class="btn" href="../../himiya-bez-laboratoriya/c4j2knm26c/himiya-bez-laboratoriya-3-kiselini-osnovi-i-metali.pdf" download>⬇ Изтеглете PDF</a><a class="ver" href="../../himiya-bez-laboratoriya/c4j2knm26c/" target="_blank" rel="noopener">Отворете →</a></div></div><div class="card"><span class="n">Книга 4</span><h3>Химия без лаборатория · Книга 4 · Физична химия</h3><p>30 експеримента, всеки на една карта за печат: материали, 6 стъпки със снимки, обяснение, уравнение и бележка за безопасност.</p><div class="acciones"><a class="btn" href="../../himiya-bez-laboratoriya/7p6p4kwea3/himiya-bez-laboratoriya-4-fizichna-himiya.pdf" download>⬇ Изтеглете PDF</a><a class="ver" href="../../himiya-bez-laboratoriya/7p6p4kwea3/" target="_blank" rel="noopener">Отворете →</a></div></div><div class="card"><span class="n">Книга 5</span><h3>Химия без лаборатория · Книга 5 · Химия на околната среда</h3><p>30 експеримента, всеки на една карта за печат: материали, 6 стъпки със снимки, обяснение, уравнение и бележка за безопасност.</p><div class="acciones"><a class="btn" href="../../himiya-bez-laboratoriya/gkpbftejc9/himiya-bez-laboratoriya-5-himiya-na-okolnata-sreda.pdf" download>⬇ Изтеглете PDF</a><a class="ver" href="../../himiya-bez-laboratoriya/gkpbftejc9/" target="_blank" rel="noopener">Отворете →</a></div></div></div></section>
+  <section class="sec"><h2>Вашите 5 бонуса като подарък</h2><div class="grid"><div class="card"><span class="n">Бонус 1</span><h3>Комплект за ден на проектите: планирайте, представете, спечелете</h3><p>График за 4 седмици, 10 впечатляващи проекта, оформление на таблото, заглавни надписи и критерии за оценяване от журито.</p><div class="acciones"><a class="btn" href="../../himiya-bez-laboratoriya/2i1rpfbtrq/himiya-bez-laboratoriya-bonus-1-komplekt-den-na-proektite.pdf" download>⬇ Изтеглете PDF</a><a class="ver" href="../../himiya-bez-laboratoriya/2i1rpfbtrq/" target="_blank" rel="noopener">Отворете →</a></div></div><div class="card"><span class="n">Бонус 2</span><h3>Ръководство за безопасност в класната стая + декларация за съгласие от родителите</h3><p>Протоколи по вид експеримент, контролен списък преди експеримента и образец на декларация за съгласие.</p><div class="acciones"><a class="btn" href="../../himiya-bez-laboratoriya/klikw30chc/himiya-bez-laboratoriya-bonus-2-rakovodstvo-bezopasnost.pdf" download>⬇ Изтеглете PDF</a><a class="ver" href="../../himiya-bez-laboratoriya/klikw30chc/" target="_blank" rel="noopener">Отворете →</a></div></div><div class="card"><span class="n">Бонус 3</span><h3>Илюстрирана периодична таблица + 12 инфографики за класната стая</h3><p>Периодична таблица във формат плакат с приложения от ежедневието, плюс 12 плаката за стените на класната стая.</p><div class="acciones"><a class="btn" href="../../himiya-bez-laboratoriya/vj9ndbe7s5/himiya-bez-laboratoriya-bonus-3-periodichna-tablica-infografiki.pdf" download>⬇ Изтеглете PDF</a><a class="ver" href="../../himiya-bez-laboratoriya/vj9ndbe7s5/" target="_blank" rel="noopener">Отворете →</a></div></div><div class="card"><span class="n">Бонус 4</span><h3>Годишно разпределение по химия, редактируем PDF + Word</h3><p>36 седмици, по един експеримент седмично. PDF + редактируем Word файл.</p><div class="acciones"><a class="btn" href="../../himiya-bez-laboratoriya/2f146vtw47/himiya-bez-laboratoriya-bonus-4-razpredelenie.pdf" download>⬇ Изтеглете PDF</a><a class="btn" style="margin-top:8px" href="../../himiya-bez-laboratoriya/2f146vtw47/himiya-bez-laboratoriya-bonus-4-razpredelenie.docx" download>⬇ Изтеглете Word файла</a><a class="ver" href="../../himiya-bez-laboratoriya/2f146vtw47/" target="_blank" rel="noopener">Отворете →</a></div></div><div class="card"><span class="n">Бонус 5</span><h3>Оценъчни листове и критерии за практическите занятия</h3><p>Листове за наблюдение, шаблон „твърдение–доказателство–аргументация“, критерии с 4 нива, контролен списък за групата и изходни карти.</p><div class="acciones"><a class="btn" href="../../himiya-bez-laboratoriya/laueaj8ojf/himiya-bez-laboratoriya-bonus-5-ocenachni-listove.pdf" download>⬇ Изтеглете PDF</a><a class="ver" href="../../himiya-bez-laboratoriya/laueaj8ojf/" target="_blank" rel="noopener">Отворете →</a></div></div></div></section>
+  <section class="sec"><h2>Следваща стъпка</h2><ol class="pasos"><li>Изтеглете 5-те книги и 5-те бонуса на компютъра или телефона си.</li><li>Изберете карта за следващия си час: в съдържанието на всяка книга ще я намерите за минути по ниво и време.</li><li>Прочетете бележката за безопасност на картата и прегледайте контролния списък преди експеримента от бонус 2.</li><li>Впишете датите в Word файла с годишното разпределение от бонус 4 и оценявайте с листовете от бонус 5.</li></ol></section>
+  <p class="foot">Само за лична употреба, за вашите собствени часове. Препродажбата и споделянето са забранени.</p>
+</main>
+</body>
+</html>

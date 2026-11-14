@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Chimie fără laborator</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Oswald:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* HUB DE ENTREGA: la única URL que recibe el comprador. Sin OTOs, sin contactos, noindex. */
+:root{--bg:#F4F6FB;--paper:#FFFFFF;--ink:#14213D;--ink-soft:#4A5873;--accent:#16306A;--accent-dark:#0E2147;--line:#DCE3F0}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:var(--bg);color:var(--ink)}
+body{font-family:'Inter',-apple-system,Arial,sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:'Oswald',Georgia,serif;line-height:1.15;letter-spacing:-.01em}
+a{color:inherit}
+.wrap{max-width:1040px;margin:0 auto;padding:0 16px}
+.hero{background:linear-gradient(160deg,var(--accent-dark),var(--accent));color:var(--paper);padding:48px 0 64px;text-align:center}
+.hero .kicker{display:inline-block;border:1px solid rgba(255,255,255,.5);border-radius:99px;padding:5px 14px;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;margin-bottom:14px}
+.hero h1{font-size:clamp(28px,6vw,48px);margin-bottom:10px}
+.hero p{font-size:18px;opacity:.93;max-width:640px;margin:0 auto}
+.stats{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:22px}
+.stats span{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.35);border-radius:99px;padding:8px 16px;font-weight:700;font-size:15px}
+.core{position:relative;margin:-36px auto 36px;background:var(--paper);border:2px solid var(--accent);border-radius:20px;padding:26px;display:grid;grid-template-columns:180px 1fr;gap:24px;align-items:center;box-shadow:0 18px 40px rgba(0,0,0,.10)}
+.core img{width:100%;border-radius:10px;box-shadow:0 8px 20px rgba(0,0,0,.18);display:block}
+.core .ph{aspect-ratio:2/3;border-radius:10px;background:linear-gradient(160deg,var(--accent),var(--accent-dark))}
+.tag{display:inline-block;background:var(--accent);color:var(--paper);border-radius:99px;padding:4px 12px;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;margin-bottom:10px}
+.core h2{font-size:clamp(22px,4vw,32px);margin-bottom:8px}
+.core p{color:var(--ink-soft);margin-bottom:16px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:12px 26px;border-radius:12px;background:var(--accent);color:var(--paper);font-weight:800;font-size:17px;text-decoration:none;box-shadow:0 4px 0 var(--accent-dark)}
+.btn:hover{filter:brightness(1.05)}
+.sec{margin:0 0 40px}
+.sec h2{font-size:clamp(22px,4vw,30px);margin-bottom:16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:18px;display:flex;flex-direction:column;gap:8px;text-decoration:none;transition:transform .12s,border-color .12s}
+.card:hover{transform:translateY(-2px);border-color:var(--accent)}
+.card .n{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.card h3{font-size:19px}
+.card p{color:var(--ink-soft);font-size:15px;flex:1}
+.card .go{font-weight:800;color:var(--accent-dark)}
+.card .btn{width:100%;min-height:46px;padding:10px 16px;font-size:16px}
+.acciones{display:inline-flex;flex-direction:column;align-items:stretch}
+.card .acciones{display:flex}
+.ver{display:block;margin-top:10px;font-weight:800;color:var(--accent-dark);text-decoration:none;text-align:center}
+.card .ver{margin-top:8px}
+.pasos{counter-reset:p;list-style:none;display:grid;gap:10px}
+.pasos li{counter-increment:p;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:14px 16px 14px 58px;position:relative}
+.pasos li::before{content:counter(p);position:absolute;left:14px;top:12px;width:32px;height:32px;border-radius:50%;background:var(--accent);color:var(--paper);font-weight:800;display:flex;align-items:center;justify-content:center}
+.foot{text-align:center;color:var(--ink-soft);font-size:13px;padding:10px 0 40px}
+@media (max-width:640px){.core{grid-template-columns:1fr;text-align:center;padding:20px}.core img,.core .ph{max-width:170px;margin:0 auto}.btn{width:100%}.acciones{display:flex}}
+.btn,.btn.primary{background:#F5B70A;color:#0E2147;box-shadow:0 4px 0 #C38F00}.btn:hover{background:#FFD45C}.card .n,.tag{color:#B07D00}.tag{background:#F5B70A;color:#0E2147}</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <span class="kicker">Bun venit · Chimie fără laborator</span>
+    <h1>Chimie fără laborator</h1>
+    <p>150 de fișe de experimente de imprimat, în 5 volume, plus 5 bonusuri cadou. Descărcați, imprimați, predați.</p>
+    <div class="stats"><span>150 de experimente</span><span>5 volume</span><span>5 bonusuri cadou</span></div>
+  </div>
+</header>
+<main class="wrap">
+  <section class="sec" style="margin-top:32px"><h2>Produsul principal</h2><div class="grid"><div class="card"><span class="n">Volumul 1</span><h3>Chimie fără laborator · Volumul 1 · Chimie generală</h3><p>30 de experimente, fiecare pe o fișă de imprimat: materiale, 6 pași ilustrați, explicația științifică, rezultatul așteptat și nota de siguranță.</p><div class="acciones"><a class="btn" href="../../chimie-fara-laborator/m1v57wq8ba/chimie-fara-laborator-1-chimie-generala.pdf" download>⬇ Descărcați PDF-ul</a><a class="ver" href="../../chimie-fara-laborator/m1v57wq8ba/" target="_blank" rel="noopener">Deschideți →</a></div></div><div class="card"><span class="n">Volumul 2</span><h3>Chimie fără laborator · Volumul 2 · Chimie organică și biochimie</h3><p>30 de experimente, fiecare pe o fișă de imprimat: materiale, 6 pași ilustrați, explicația științifică, rezultatul așteptat și nota de siguranță.</p><div class="acciones"><a class="btn" href="../../chimie-fara-laborator/lf4ybopxwz/chimie-fara-laborator-2-chimie-organica-si-biochimie.pdf" download>⬇ Descărcați PDF-ul</a><a class="ver" href="../../chimie-fara-laborator/lf4ybopxwz/" target="_blank" rel="noopener">Deschideți →</a></div></div><div class="card"><span class="n">Volumul 3</span><h3>Chimie fără laborator · Volumul 3 · Acizi, baze și metale</h3><p>30 de experimente, fiecare pe o fișă de imprimat: materiale, 6 pași ilustrați, explicația științifică, rezultatul așteptat și nota de siguranță.</p><div class="acciones"><a class="btn" href="../../chimie-fara-laborator/uqwkc0tnfa/chimie-fara-laborator-3-acizi-baze-si-metale.pdf" download>⬇ Descărcați PDF-ul</a><a class="ver" href="../../chimie-fara-laborator/uqwkc0tnfa/" target="_blank" rel="noopener">Deschideți →</a></div></div><div class="card"><span class="n">Volumul 4</span><h3>Chimie fără laborator · Volumul 4 · Chimie fizică</h3><p>30 de experimente, fiecare pe o fișă de imprimat: materiale, 6 pași ilustrați, explicația științifică, rezultatul așteptat și nota de siguranță.</p><div class="acciones"><a class="btn" href="../../chimie-fara-laborator/bqfs0zqmh7/chimie-fara-laborator-4-chimie-fizica.pdf" download>⬇ Descărcați PDF-ul</a><a class="ver" href="../../chimie-fara-laborator/bqfs0zqmh7/" target="_blank" rel="noopener">Deschideți →</a></div></div><div class="card"><span class="n">Volumul 5</span><h3>Chimie fără laborator · Volumul 5 · Chimia mediului</h3><p>30 de experimente, fiecare pe o fișă de imprimat: materiale, 6 pași ilustrați, explicația științifică, rezultatul așteptat și nota de siguranță.</p><div class="acciones"><a class="btn" href="../../chimie-fara-laborator/ueha9229nd/chimie-fara-laborator-5-chimia-mediului.pdf" download>⬇ Descărcați PDF-ul</a><a class="ver" href="../../chimie-fara-laborator/ueha9229nd/" target="_blank" rel="noopener">Deschideți →</a></div></div></div></section>
+  <section class="sec"><h2>Cele 5 bonusuri cadou</h2><div class="grid"><div class="card"><span class="n">Bonus 1</span><h3>Set pentru ziua proiectelor: planificați, prezentați, câștigați</h3><p>Program pe 4 săptămâni, 10 proiecte spectaculoase, model de planșă de prezentare, etichete de titlu și criterii de jurizare.</p><div class="acciones"><a class="btn" href="../../chimie-fara-laborator/1f9frc4gfy/chimie-fara-laborator-bonus-1-set-ziua-proiectelor.pdf" download>⬇ Descărcați PDF-ul</a><a class="ver" href="../../chimie-fara-laborator/1f9frc4gfy/" target="_blank" rel="noopener">Deschideți →</a></div></div><div class="card"><span class="n">Bonus 2</span><h3>Ghid de siguranță pentru laboratorul din clasă + declarație de consimțământ a părinților</h3><p>Protocoale pe tipuri de experiment, o listă de verificare înainte de experiment și un model de declarație de consimțământ.</p><div class="acciones"><a class="btn" href="../../chimie-fara-laborator/mvnfiw76rs/chimie-fara-laborator-bonus-2-ghid-siguranta-laborator.pdf" download>⬇ Descărcați PDF-ul</a><a class="ver" href="../../chimie-fara-laborator/mvnfiw76rs/" target="_blank" rel="noopener">Deschideți →</a></div></div><div class="card"><span class="n">Bonus 3</span><h3>Tabel periodic ilustrat + 12 infografice pentru clasă</h3><p>Un tabel periodic în format poster, cu utilizări din viața de zi cu zi, plus 12 postere pentru pereții clasei.</p><div class="acciones"><a class="btn" href="../../chimie-fara-laborator/mjtsegb6dc/chimie-fara-laborator-bonus-3-tabel-periodic-infografice.pdf" download>⬇ Descărcați PDF-ul</a><a class="ver" href="../../chimie-fara-laborator/mjtsegb6dc/" target="_blank" rel="noopener">Deschideți →</a></div></div><div class="card"><span class="n">Bonus 4</span><h3>Planificare calendaristică anuală la chimie, editabilă, în format PDF și Word</h3><p>36 de săptămâni, câte un experiment pe săptămână. PDF + fișier Word editabil.</p><div class="acciones"><a class="btn" href="../../chimie-fara-laborator/ylb47otibj/chimie-fara-laborator-bonus-4-planificare-calendaristica.pdf" download>⬇ Descărcați PDF-ul</a><a class="btn" style="margin-top:8px" href="../../chimie-fara-laborator/ylb47otibj/chimie-fara-laborator-bonus-4-planificare-calendaristica.docx" download>⬇ Descărcați fișierul Word</a><a class="ver" href="../../chimie-fara-laborator/ylb47otibj/" target="_blank" rel="noopener">Deschideți →</a></div></div><div class="card"><span class="n">Bonus 5</span><h3>Fișe de evaluare și grile de notare pentru orele practice</h3><p>Fișe de observație, șablon „afirmație–dovadă–argumentare”, grile de notare pe 4 niveluri, listă de verificare pe grupe și bilețele de ieșire.</p><div class="acciones"><a class="btn" href="../../chimie-fara-laborator/vje1cfu36v/chimie-fara-laborator-bonus-5-fise-evaluare.pdf" download>⬇ Descărcați PDF-ul</a><a class="ver" href="../../chimie-fara-laborator/vje1cfu36v/" target="_blank" rel="noopener">Deschideți →</a></div></div></div></section>
+  <section class="sec"><h2>Pasul următor</h2><ol class="pasos"><li>Descărcați cele 5 volume și cele 5 bonusuri pe calculator sau pe telefon.</li><li>Alegeți o fișă pentru ora următoare: în cuprinsul fiecărui volum o găsiți în câteva minute, după nivel și durată.</li><li>Citiți nota de siguranță de pe fișă și parcurgeți lista de verificare dinaintea experimentului din Bonusul 2.</li><li>Introduceți datele în fișierul Word al planificării calendaristice din Bonusul 4 și evaluați elevii cu ajutorul fișelor din Bonusul 5.</li></ol></section>
+  <p class="foot">Doar pentru uz personal, la orele dumneavoastră. Revânzarea și distribuirea sunt interzise.</p>
+</main>
+</body>
+</html>

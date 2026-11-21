@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>冴える頭</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f4f7fb;--paper:#ffffff;--ink:#132a44;--ink-soft:#6b7683;--accent:#c8551b;--accent-dark:#173c62;--line:#e2e8f0}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:var(--bg);color:var(--ink)}
+body{font-family:'Noto Sans JP','Hiragino Sans','Yu Gothic',Meiryo,sans-serif;line-height:1.7;-webkit-font-smoothing:antialiased;line-break:strict;word-break:normal;overflow-wrap:anywhere}
+h1,h2,h3{font-family:'Noto Sans JP','Hiragino Sans','Yu Gothic',Meiryo,sans-serif;line-height:1.3}
+a{color:inherit}
+.wrap{max-width:1040px;margin:0 auto;padding:0 16px}
+.hero{background:linear-gradient(160deg,var(--accent-dark),var(--accent));color:var(--paper);padding:48px 0 64px;text-align:center}
+.hero .kicker{display:inline-block;border:1px solid rgba(255,255,255,.5);border-radius:99px;padding:5px 14px;font-size:13px;font-weight:800;letter-spacing:.08em;margin-bottom:14px}
+.hero h1{font-size:clamp(28px,6vw,48px);margin-bottom:10px}
+.hero p{font-size:18px;opacity:.93;max-width:640px;margin:0 auto}
+.stats{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:22px}
+.stats span{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.35);border-radius:99px;padding:8px 16px;font-weight:700;font-size:15px}
+.core{position:relative;margin:-36px auto 36px;background:var(--paper);border:2px solid var(--accent);border-radius:20px;padding:26px;display:grid;grid-template-columns:180px 1fr;gap:24px;align-items:center;box-shadow:0 18px 40px rgba(0,0,0,.10)}
+.core img{width:100%;border-radius:10px;box-shadow:0 8px 20px rgba(0,0,0,.18);display:block}
+.tag{display:inline-block;background:var(--accent);color:var(--paper);border-radius:99px;padding:4px 12px;font-size:13px;font-weight:800;letter-spacing:.05em;margin-bottom:10px}
+.core h2{font-size:clamp(22px,4vw,32px);margin-bottom:8px}
+.core p{color:var(--ink-soft);margin-bottom:16px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:12px 26px;border-radius:12px;background:var(--accent);color:var(--paper);font-weight:800;font-size:17px;text-decoration:none;box-shadow:0 4px 0 var(--accent-dark)}
+.btn:hover{filter:brightness(1.05)}
+.sec{margin:0 0 40px}
+.sec h2{font-size:clamp(22px,4vw,30px);margin-bottom:16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:18px;display:flex;flex-direction:column;gap:8px;text-decoration:none;transition:transform .12s,border-color .12s}
+.card:hover{transform:translateY(-2px);border-color:var(--accent)}
+.card .n{font-size:13px;font-weight:800;letter-spacing:.05em;color:var(--accent)}
+.card h3{font-size:19px}
+.card p{color:var(--ink-soft);font-size:15px;flex:1}
+.card .btn{width:100%;min-height:46px;padding:10px 16px;font-size:16px}
+.acciones{display:inline-flex;flex-direction:column;align-items:stretch}
+.card .acciones{display:flex}
+.ver{display:block;margin-top:10px;font-weight:800;color:var(--accent-dark);text-decoration:none;text-align:center}
+.card .ver{margin-top:8px}
+.pasos{counter-reset:p;list-style:none;display:grid;gap:10px}
+.pasos li{counter-increment:p;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:14px 16px 14px 58px;position:relative}
+.pasos li::before{content:counter(p);position:absolute;left:14px;top:12px;width:32px;height:32px;border-radius:50%;background:var(--accent);color:var(--paper);font-weight:800;display:flex;align-items:center;justify-content:center}
+.foot{text-align:center;color:var(--ink-soft);font-size:13px;padding:10px 0 40px}
+@media (max-width:640px){.core{grid-template-columns:1fr;text-align:center;padding:20px}.core img{max-width:170px;margin:0 auto}.btn{width:100%}.acciones{display:flex}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <span class="kicker">冴える頭へようこそ</span>
+    <h1>冴える頭</h1>
+    <p>メインのドリル5冊と特典7冊。すぐに印刷できます。</p>
+    <div class="stats"><span>1,200問以上</span><span>PDFのドリル12冊</span><span>各ドリルの巻末に解答つき</span></div>
+  </div>
+</header>
+<main class="wrap">
+  <section class="core"><img src="../../hajimeni-oyomikudasai/s6hbm7xlr2/portada.jpg" alt="はじめにお読みください"><div><span class="tag">まずはここから</span><h2>はじめにお読みください</h2><p>セット全体の短いガイドです。何が入っているか、どう始めるかが分かります。</p><div class="acciones"><a class="btn" href="../../hajimeni-oyomikudasai/s6hbm7xlr2/00%20-%20%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB%E3%81%8A%E8%AA%AD%E3%81%BF%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84.pdf" download="00 - はじめにお読みください.pdf">⬇ PDFをダウンロード</a><a class="ver" href="../../hajimeni-oyomikudasai/s6hbm7xlr2/">開く →</a></div></div></section>
+  <section class="sec"><h2>ご購入のドリルと特典</h2><div class="grid"><div class="card"><span class="n">ドリル</span><h3>手と目の連携 ― 80問</h3><p>線なぞり、迷路、左右対称、文字を書く練習。</p><div class="acciones"><a class="btn" href="../../te-to-me-no-renkei/f0bnhmfhrt/01%20-%20%E6%89%8B%E3%81%A8%E7%9B%AE%E3%81%AE%E9%80%A3%E6%90%BA%E3%82%92%E9%AB%98%E3%82%81%E3%82%8B80%E5%95%8F.pdf" download="01 - 手と目の連携を高める80問.pdf">⬇ PDFをダウンロード</a><a class="ver" href="../../te-to-me-no-renkei/f0bnhmfhrt/" target="_blank" rel="noopener">開く →</a></div></div><div class="card"><span class="n">ドリル</span><h3>論理的思考 ― 90問</h3><p>規則の並び、類推、日常生活の問題。</p><div class="acciones"><a class="btn" href="../../ronriteki-shiko/bebcew5vaj/02%20-%20%E8%AB%96%E7%90%86%E7%9A%84%E6%80%9D%E8%80%83%E3%82%92%E8%82%B2%E3%81%A6%E3%82%8B90%E5%95%8F.pdf" download="02 - 論理的思考を育てる90問.pdf">⬇ PDFをダウンロード</a><a class="ver" href="../../ronriteki-shiko/bebcew5vaj/" target="_blank" rel="noopener">開く →</a></div></div><div class="card"><span class="n">ドリル</span><h3>注意力 ― 80問</h3><p>間違い探し、探し物、線で消していく問題。</p><div class="acciones"><a class="btn" href="../../chuiryoku/2lsju5b77k/03%20-%20%E6%B3%A8%E6%84%8F%E5%8A%9B%E3%82%92%E9%AB%98%E3%82%81%E3%82%8B80%E5%95%8F.pdf" download="03 - 注意力を高める80問.pdf">⬇ PDFをダウンロード</a><a class="ver" href="../../chuiryoku/2lsju5b77k/" target="_blank" rel="noopener">開く →</a></div></div><div class="card"><span class="n">ドリル</span><h3>記憶力 ― 80問</h3><p>見て覚える、リスト、物語、ペア。</p><div class="acciones"><a class="btn" href="../../kiokuryoku/8e9bct7fdb/04%20-%20%E8%A8%98%E6%86%B6%E5%8A%9B%E3%82%92%E9%8D%9B%E3%81%88%E3%82%8B80%E5%95%8F.pdf" download="04 - 記憶力を鍛える80問.pdf">⬇ PDFをダウンロード</a><a class="ver" href="../../kiokuryoku/8e9bct7fdb/" target="_blank" rel="noopener">開く →</a></div></div><div class="card"><span class="n">ドリル</span><h3>頭の回転 ― カード90枚</h3><p>ことばの瞬発力、ことわざ、計算。</p><div class="acciones"><a class="btn" href="../../atama-no-kaiten/lm4sw1rdr2/05%20-%20%E9%A0%AD%E3%81%AE%E5%9B%9E%E8%BB%A2%E3%82%92%E9%8D%9B%E3%81%88%E3%82%8B%E3%82%AB%E3%83%BC%E3%83%8990%E6%9E%9A.pdf" download="05 - 頭の回転を鍛えるカード90枚.pdf">⬇ PDFをダウンロード</a><a class="ver" href="../../atama-no-kaiten/lm4sw1rdr2/" target="_blank" rel="noopener">開く →</a></div></div><div class="card"><span class="n">特典 1</span><h3>ことば探し200問</h3><p>20の異なるテーマ：果物、職業、国、花、料理。</p><div class="acciones"><a class="btn" href="../../kotoba-sagashi-200/vaa07yz42t/%E7%89%B9%E5%85%B8B1%20-%20%E3%81%93%E3%81%A8%E3%81%B0%E6%8E%A2%E3%81%97200%E5%95%8F.pdf" download="特典B1 - ことば探し200問.pdf">⬇ PDFをダウンロード</a><a class="ver" href="../../kotoba-sagashi-200/vaa07yz42t/" target="_blank" rel="noopener">開く →</a></div></div><div class="card"><span class="n">特典 2</span><h3>ナンプレ（数独）200問</h3><p>本当の難しさで分けた4つのレベル。</p><div class="acciones"><a class="btn" href="../../nanpure-200/pkzh6accjv/%E7%89%B9%E5%85%B8B2%20-%20%E3%83%8A%E3%83%B3%E3%83%97%E3%83%AC%EF%BC%88%E6%95%B0%E7%8B%AC%EF%BC%89200%E5%95%8F.pdf" download="特典B2 - ナンプレ（数独）200問.pdf">⬇ PDFをダウンロード</a><a class="ver" href="../../nanpure-200/pkzh6accjv/" target="_blank" rel="noopener">開く →</a></div></div><div class="card"><span class="n">特典 3</span><h3>クロスワード200問</h3><p>11×11マスから17×17マスまで。</p><div class="acciones"><a class="btn" href="../../crossword-200/3pejegxoow/%E7%89%B9%E5%85%B8B3%20-%20%E3%82%AF%E3%83%AD%E3%82%B9%E3%83%AF%E3%83%BC%E3%83%89200%E5%95%8F.pdf" download="特典B3 - クロスワード200問.pdf">⬇ PDFをダウンロード</a><a class="ver" href="../../crossword-200/3pejegxoow/" target="_blank" rel="noopener">開く →</a></div></div><div class="card"><span class="n">特典 4</span><h3>数字探し200問</h3><p>似た数字の中から数を探します。</p><div class="acciones"><a class="btn" href="../../suji-sagashi-200/4mtt7b8m0d/%E7%89%B9%E5%85%B8B4%20-%20%E6%95%B0%E5%AD%97%E6%8E%A2%E3%81%97200%E5%95%8F.pdf" download="特典B4 - 数字探し200問.pdf">⬇ PDFをダウンロード</a><a class="ver" href="../../suji-sagashi-200/4mtt7b8m0d/" target="_blank" rel="noopener">開く →</a></div></div><div class="card"><span class="n">特典 5</span><h3>短い物語25話</h3><p>会話のある物語に、それぞれ5つの質問つき。</p><div class="acciones"><a class="btn" href="../../mijikai-monogatari-25/xskjp5rhpv/%E7%89%B9%E5%85%B8B5%20-%20%E7%9F%AD%E3%81%84%E7%89%A9%E8%AA%9E25%E8%A9%B1.pdf" download="特典B5 - 短い物語25話.pdf">⬇ PDFをダウンロード</a><a class="ver" href="../../mijikai-monogatari-25/xskjp5rhpv/" target="_blank" rel="noopener">開く →</a></div></div><div class="card"><span class="n">特典 6</span><h3>30日プラン</h3><p>ほかのドリルで毎日何をするか。進み具合の記録つき。</p><div class="acciones"><a class="btn" href="../../plan-30-nichi/pnmsv26v2e/%E7%89%B9%E5%85%B8B6%20-%2030%E6%97%A5%E3%83%97%E3%83%A9%E3%83%B3.pdf" download="特典B6 - 30日プラン.pdf">⬇ PDFをダウンロード</a><a class="ver" href="../../plan-30-nichi/pnmsv26v2e/" target="_blank" rel="noopener">開く →</a></div></div><div class="card"><span class="n">特典 7</span><h3>家族で楽しむアクティビティ50</h3><p>ふたり以上で過ごす午後のアイデア：思い出、ことば、テーブルゲーム、料理、散歩。</p><div class="acciones"><a class="btn" href="../../kazoku-activity-50/5ghida7zft/%E7%89%B9%E5%85%B8B7%20-%20%E5%AE%B6%E6%97%8F%E3%81%A7%E6%A5%BD%E3%81%97%E3%82%80%E3%82%A2%E3%82%AF%E3%83%86%E3%82%A3%E3%83%93%E3%83%86%E3%82%A350.pdf" download="特典B7 - 家族で楽しむアクティビティ50.pdf">⬇ PDFをダウンロード</a><a class="ver" href="../../kazoku-activity-50/5ghida7zft/" target="_blank" rel="noopener">開く →</a></div></div></div></section>
+  <section class="sec"><h2>始め方</h2><ol class="pasos"><li>まず、短いガイド「はじめにお読みください」を開いてください。</li><li>メインのドリル5冊の最初のページを印刷してください。A4サイズ、白黒です。</li><li>「30日プラン」に沿って進めてください。ほかのドリルで毎日何をするかが書いてあります。</li><li>ドリルが終わったら、もう一度印刷してください。ファイルはずっとお手元に残ります。</li></ol></section>
+  <p class="foot">ご自身とご家庭内での利用に限ります。転売・再配布は禁止です。</p>
+</main>
+</body>
+</html>
